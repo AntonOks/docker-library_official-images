@@ -6,29 +6,24 @@ Maintainers: Misha f. Shiryaev <felixoid@clickhouse.com> (@Felixoid),
              Alexander Sapin <alesapin@clickhouse.com> (@alesapin)
 GitRepo: https://github.com/ClickHouse/docker-library.git
 GitFetch: refs/heads/main
-GitCommit: c28aa6f09aaa00cf2ba0d8a29499b30702549187
+GitCommit: 72ebb3fc40c3571a740ff96ff758998949f77f75
 
-Tags: latest, jammy, 26.1, 26.1-jammy, 26.1.1, 26.1.1-jammy, 26.1.1.912, 26.1.1.912-jammy
+Tags: latest, jammy, lts, lts-jammy, 26.3, 26.3-jammy, 26.3.1, 26.3.1-jammy, 26.3.1.896, 26.3.1.896-jammy
 Architectures: amd64, arm64v8
-Directory: server/26.1.1.912
+Directory: server/26.3.1.896
 File: Dockerfile.ubuntu
 
-Tags: 25.12, 25.12-jammy, 25.12.4, 25.12.4-jammy, 25.12.4.35, 25.12.4.35-jammy
+Tags: 26.2, 26.2-jammy, 26.2.5, 26.2.5-jammy, 26.2.5.45, 26.2.5.45-jammy
 Architectures: amd64, arm64v8
-Directory: server/25.12.4.35
+Directory: server/26.2.5.45
 File: Dockerfile.ubuntu
 
-Tags: 25.11, 25.11-jammy, 25.11.8, 25.11.8-jammy, 25.11.8.25, 25.11.8.25-jammy
+Tags: 26.1, 26.1-jammy, 26.1.6, 26.1.6-jammy, 26.1.6.6, 26.1.6.6-jammy
 Architectures: amd64, arm64v8
-Directory: server/25.11.8.25
+Directory: server/26.1.6.6
 File: Dockerfile.ubuntu
 
-Tags: lts, lts-jammy, 25.8, 25.8-jammy, 25.8.15, 25.8.15-jammy, 25.8.15.35, 25.8.15.35-jammy
+Tags: 25.8, 25.8-jammy, 25.8.20, 25.8.20-jammy, 25.8.20.4, 25.8.20.4-jammy
 Architectures: amd64, arm64v8
-Directory: server/25.8.15.35
-File: Dockerfile.ubuntu
-
-Tags: 25.3, 25.3-jammy, 25.3.13, 25.3.13-jammy, 25.3.13.19, 25.3.13.19-jammy
-Architectures: amd64, arm64v8
-Directory: server/25.3.13.19
+Directory: server/25.8.20.4
 File: Dockerfile.ubuntu
